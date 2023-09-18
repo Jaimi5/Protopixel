@@ -5,6 +5,7 @@
         "sdkconfig.h": "c",
         "task.h": "c",
         "freertos.h": "c",
-        "queue.h": "c"
+        "queue.h": "c",
+        "led_driver.h": "c"
     }
 }
