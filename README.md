@@ -39,3 +39,7 @@ Define the type of board, choose between LAMP or CONTROLLER
 #define WIFI_PASS "YOUR_WIFI_PASSWORD"
 #define MQTT_BROKER_IP "YOUR_MQTT_BROKER_IP"
 ```
+
+## Demonstration
+
+In the file `demonstration\Demonstration.mp4` you can find a video of the demonstration of the task.
