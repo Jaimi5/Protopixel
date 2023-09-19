@@ -7,7 +7,10 @@ Protopixel Technical Task Firmware Engineer
 
 1. Add Led state
 2. Add button interrupt that toggles the led
-3. Added a solution for the button bouncing
+3. Add a solution for the button bouncing
+4. Add a WiFi connection
+5. Add a MQTT connection
+6. Add a MQTT/LED state synchronization
  
 ## Pre-requisites
 
