@@ -1,6 +1,6 @@
 #include "debounce.h"
 #include "esp_timer.h"
-#include "include/config.h"
+#include "config.h"
 
 static int64_t last_interrupt_time = 0;
 

@@ -2,6 +2,7 @@
 #include "led_task.h"
 #include "drivers/led_driver.h"
 #include "utilities/debounce.h"
+#include "config.h"
 
 static const char* TAG = "led_task";
 

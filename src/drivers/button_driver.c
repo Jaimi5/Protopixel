@@ -1,6 +1,6 @@
 #include "esp_log.h"
 #include "button_driver.h"
-#include "include/config.h"
+#include "config.h"
 
 static const char* TAG = "BUTTON_DRIVER";
 
