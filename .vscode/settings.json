@@ -6,6 +6,8 @@
         "task.h": "c",
         "freertos.h": "c",
         "queue.h": "c",
-        "led_driver.h": "c"
+        "led_driver.h": "c",
+        "config.h": "c",
+        "mqtt_service.h": "c"
     }
 }
