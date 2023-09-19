@@ -1,6 +1,6 @@
 #include "led_driver.h"
 #include "esp_log.h"
-#include "include/config.h"
+#include "config.h"
 
 static const char* TAG = "LED_DRIVER";
 
@@ -24,4 +24,14 @@ void blink_led(void) {
 
 void change_led_state(void) {
     s_led_state = !s_led_state;
+    blink_led();
+}
+
+void set_led_state(uint8_t state) {
+    s_led_state = state;
+    blink_led();
+}
+
+uint8_t get_led_state(void) {
+    return s_led_state;
 }
