@@ -14,8 +14,8 @@
 #define DEBOUNCE_TIME 200000 // 200ms
 
 // WiFi Configuration
-#define WIFI_SSID      "MiFibra-3943"
-#define WIFI_PASS      "GrdSZr3Q"
+#define WIFI_SSID      "Jan-Protopixel"
+#define WIFI_PASS      "protopixel"
 #define WIFI_MAXIMUM_RETRY  5
 
 // MQTT Configuration
