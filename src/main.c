@@ -57,5 +57,8 @@ void app_main(void) {
     mqtt_led_bridge_init();
     ESP_LOGI(TAG, "MQTT LED BRIDGE INITIALIZED");
 
+    // Publish the initial LED state to the MQTT broker
+    send_led_state();
+
     ESP_LOGI(TAG, "Initialization complete");
 }

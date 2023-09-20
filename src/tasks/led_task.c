@@ -11,9 +11,6 @@ static const char* TAG = "led_task";
 void create_led_task(void) {
     // Create a FreeRTOS task to handle LED toggle
     xTaskCreate(led_task, "led_task", 2048, NULL, 10, NULL);
-
-    // Publish the initial LED state to the MQTT broker
-    send_led_state();
 }
 
 void led_task(void* params) {
