@@ -21,12 +21,12 @@ void mqtt_led_callback(const char* topic, const char* message) {
 
     ESP_LOGI(TAG, "Received MQTT message on topic %s: %s", topic, message);
 
-    if (strcmp(message, "ON") == 0)
+    if (strstr(message, "ON") != NULL)
         set_led_state(true);
-    else if (strcmp(message, "OFF") == 0)
+    else if (strstr(message, "OFF") != NULL)
         set_led_state(false);
     else {
         ESP_LOGW(TAG, "Unknown command: %s", message);
     }
-    
+
 }
